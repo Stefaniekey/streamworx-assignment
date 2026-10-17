@@ -1,0 +1,7 @@
+package com.streamworx.api2.repository;
+
+import com.streamworx.api2.entity.Post;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface PostRepository extends JpaRepository<Post, Long> {
+}
